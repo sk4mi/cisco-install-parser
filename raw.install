@@ -1,0 +1,83 @@
+Installer will perform compatibility check first. Please wait. 
+uri is: /nxos.7.0.3.I2.1.bin
+Installer is forced disruptive 
+
+Verifying image bootflash:/nxos.7.0.3.I2.1.bin for boot variable "nxos".
+[####################] 100% -- SUCCESS
+
+Verifying image type.
+[####################] 100% -- SUCCESS
+
+Preparing "lcn9k" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "bios" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "lcn9k" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "lcn9k" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "lcn9k" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "lcn9k" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "lcn9k" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "nxos" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "lcn9k" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Preparing "lcn9k" version info using image bootflash:/nxos.7.0.3.I2.1.bin.
+[####################] 100% -- SUCCESS
+
+Performing module support checks.
+[####################] 100% -- SUCCESS
+
+Notifying services about system upgrade.
+[####################] 100% -- SUCCESS
+
+Compatibility check is done:
+Module  bootable          Impact  Install-type  Reason
+------  --------  --------------  ------------  ------
+     1       yes      disruptive         reset  Reset due to single supervisor
+    21       yes      disruptive         reset  Reset due to single supervisor
+    22       yes      disruptive         reset  Reset due to single supervisor
+    23       yes      disruptive         reset  Reset due to single supervisor
+    24       yes      disruptive         reset  Reset due to single supervisor
+    25       yes      disruptive         reset  Reset due to single supervisor
+    26       yes      disruptive         reset  Reset due to single supervisor
+    27       yes      disruptive         reset  Reset due to single supervisor
+    29       yes      disruptive         reset  Reset due to single supervisor
+    30       yes      disruptive         reset  Reset due to single supervisor
+
+Images will be upgraded according to following table:
+Module    Image    Running-Version(pri:alt)           New-Version  Upg-Required
+------  -------  --------------------------  --------------------  ------------
+     1    lcn9k                 7.0(3)I1(1)           7.0(3)I2(1)           yes
+     1     bios         v01.42(00:v01.42(00             v01.42(00           no
+    21    lcn9k                 7.0(3)I1(1)           7.0(3)I2(1)           yes
+    21     bios         v01.42(00:v01.42(00             v01.42(00           no
+    22    lcn9k                 7.0(3)I1(1)           7.0(3)I2(1)           yes
+    22     bios         v01.42(00:v01.42(00             v01.42(00           no
+    23    lcn9k                 7.0(3)I1(1)           7.0(3)I2(1)           yes
+    23     bios         v01.42(00:v01.42(00             v01.42(00           no
+    24    lcn9k                 7.0(3)I1(1)           7.0(3)I2(1)           yes
+    24     bios         v01.42(00:v01.42(00             v01.42(00           no
+    25    lcn9k                 7.0(3)I1(1)           7.0(3)I2(1)           yes
+    25     bios         v01.42(00:v01.42(00             v01.42(00           no
+    26     nxos                 7.0(3)I1(1)           7.0(3)I2(1)           no
+    26     bios         v01.42(00:v01.42(00             v01.42(00           no
+    27     nxos                 7.0(3)I1(1)           7.0(3)I2(1)           no
+    27     bios         v01.42(00:v01.42(00             v01.42(00           no
+    29    lcn9k                 7.0(3)I1(1)           7.0(3)I2(1)           yes
+    29     bios         v01.42(00:v01.42(00             v01.42(00           no
+    30    lcn9k                 7.0(3)I1(1)           7.0(3)I2(1)           yes
+    30     bios         v01.42(00:v01.42(00             v01.42(00           no

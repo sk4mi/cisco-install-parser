@@ -1,0 +1,12 @@
+Value Module (\d+)
+Value Image (\w+)
+Value RunningVersion (7[^ ,]+)
+Value NewVersion ([^ ,]+)
+Value UpgReq (\w+)
+
+Start
+  # We can't use .* for unused placeholders, as greedy matching will break it.
+  #^\s+${Slot}\s+${State}\s+${Temperature}\s+\d+\s+\d+\s+${DRAM}\s+\d+\s+${Buffer} -> Record
+  ^Images will be upgraded according to following table:\s+ 
+  ^\s+${Module}\s+${Image}\s+${RunningVersion}\s+${NewVersion}\s+${UpgReq} -> Record
+  #^\s+${Slot}\s+${State} -> Record
